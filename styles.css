@@ -1,0 +1,54 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.contenedor {
+
+    display: grid;
+    grid-template-areas: "h2 h2 h2"
+    "section img section1";
+    border: solid black 1px;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+
+}
+
+
+img {
+
+    width: 20rem;
+    height: 20rem;
+
+}
+
+h2 {
+
+    grid-area: h2;
+
+}
+
+section {
+
+    grid-area: section;
+
+}
+
+.section1{
+
+grid-area: section1;
+
+}
+
+img {
+
+    grid-area: img;
+
+}
+
+
